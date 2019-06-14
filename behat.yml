@@ -1,0 +1,10 @@
+# behat.yml
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: https://accounts.zoho.eu
+      default_session: selenium2
+      goutte: ~
+      selenium2:
+        wd_host: "http://127.0.0.1:4444/wd/hub"
+      browser_name: 'chrome'
